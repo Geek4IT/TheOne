@@ -2,7 +2,7 @@ import json
 import urllib2
 import traceback
 from bs4 import BeautifulSoup
-import pymongo
+from pymongo import MongoClient
 
 FEED_URL = "https://medium.com/"
 FEED_SOURCE = "MEDIUM"
@@ -36,7 +36,7 @@ def parse_html_doc(html_doc):
 def save_feeds(feeds):
 	conn = None
 	try:
-		conn = pymongo.Connection(MONGODB_HOST, int(MONGODB_PORT))
+		conn = MongoClient(MONGODB_HOST, int(MONGODB_PORT))
 		db = conn[MONGODB_DB_NAME]
 		col = db[MONGODB_COL_NAME]
 

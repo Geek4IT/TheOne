@@ -1,5 +1,5 @@
 import traceback
-import pymongo
+from pymongo import MongoClient
 from hn import HN, Story
 
 
@@ -15,7 +15,7 @@ MONGODB_COL_NAME = "feed"
 def save_stories(stories):
 	conn = None
 	try:
-		conn = pymongo.Connection(MONGODB_HOST, int(MONGODB_PORT))
+		conn = MongoClient(MONGODB_HOST, int(MONGODB_PORT))
 		db = conn[MONGODB_DB_NAME]
 		col = db[MONGODB_COL_NAME]
 
