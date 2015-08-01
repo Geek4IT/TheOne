@@ -24,7 +24,7 @@ def get_html_doc(url):
 
 
 def parse_html_doc(html_doc):
-	soup = BeautifulSoup(html_doc)
+	soup = BeautifulSoup(html_doc, "html.parser")
 	attrs={"data-react-class":"FeaturedFeed"}
 	content = soup.findAll("div",attrs)
 	parsedStr = content[0].get('data-react-props')

@@ -25,7 +25,7 @@ def get_html_doc(url):
 	return resp
 
 def parse_html_doc(html_doc):
-	soup = BeautifulSoup(html_doc)
+	soup = BeautifulSoup(html_doc, "html.parser")
 	group_list = soup.find('div', attrs={"class":"blockGroup blockGroup--posts js-blockGroupPosts blockGroup--inset blockGroup--list container u-size620"})
 	#print group_list.prettify()
 	print soup.findChildren('findChildren')
