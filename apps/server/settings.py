@@ -1,5 +1,5 @@
 import os
-from pymongo import Connection
+from pymongo import MongoClient
 
 DEBUG = True
 _this_dir = os.path.dirname(os.path.abspath(__file__))
@@ -16,4 +16,4 @@ SSL_OPTIONS = None
 MONGODB_HOST = '127.0.0.1'
 MONGODB_PORT = 27017
 
-conn = Connection(host=MONGODB_HOST, port=MONGODB_PORT)
+conn = MongoClient(MONGODB_HOST, MONGODB_PORT)
