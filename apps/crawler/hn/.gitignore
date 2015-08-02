@@ -1,2 +1,1 @@
-__init__.pyc constants.pyc hn.pyc utils.pyc
-__init__.pyc constants.pyc hn.pyc utils.pyc
+*.pyc
