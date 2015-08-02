@@ -1,6 +1,7 @@
-from views.api_views import *
+from handlers.feed import *
 
-APIS = [	
+url_patterns = [	
+	(r'/',IndexHandler),
 	(r'/feeds', FeedsHandler),
 	(r'/feed', FeedHandler),
 ]
