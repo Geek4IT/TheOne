@@ -33,7 +33,7 @@ def save_stories(stories):
 			feed['source'] = FEED_SOURCE
 			feed['source_name'] = FEED_SOURCE_NAME
 			col.save(feed)
-	echo 'Save Hacker News stories at date: '+%Y-%m-%d %H:%M:%S'' >> "/home/www/TheOne/apps/crawler.log"
+		echo 'Save Hacker News stories at date: '+%Y-%m-%d %H:%M:%S'' >> "/home/www/TheOne/apps/crawler.log"
 	except:
 		print 'error...'
 		traceback.print_exc()
