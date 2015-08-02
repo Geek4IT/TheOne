@@ -1,10 +1,11 @@
 # TheOne
 
-## Fullstack pratice: Product Manager, Designer, Android Developer, Backen Developer.
+## Fullstack pratice: PRODUCT, DESIGN, DEVELOPMENT
 
 
-### PRODUCT REQURIEMENT
+### PRODUCT
 
 ### DESIGN
+
 
 ### DEVELOPMENT
