@@ -1,5 +1,6 @@
 The One -  Read all you love in one place.
 ===============================================================================
+![Alt text](/design/header.png)
 
 ## Description
 
@@ -9,7 +10,9 @@ Fullstack practice: PRODUCT, DESIGN, DEVELOPMENT.
 
 ### PRODUCT
 [Evernote](https://evernote.com/) The workspace for your life's work.
-Feeds: 
+
+
+####Feeds: 
 
 * [Hacker News](http://news.ycombinator.com/) Anything that good hackers would find interesting.
 * [Product Hunt](http://www.producthunt.com/) A place for product-loving enthusiasts to share and geek out about the latest mobile apps, websites, hardware projects, and tech creations.
