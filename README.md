@@ -40,6 +40,7 @@ Fullstack practice: PRODUCT, DESIGN, DEVELOPMENT.
 * [Supervisor](http://supervisord.org/) A Process Control System.
 * [Vim](http://www.vim.org/about.php) An advanced text editor that seeks to provide the power of the de-facto Unix editor 'Vi', with a more complete feature set.
 * [Sublime](http://www.sublimetext.com/) A sophisticated text editor for code, markup and prose.
+* [Git](https://git-scm.com/) A distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 ## Directory Structure
 
