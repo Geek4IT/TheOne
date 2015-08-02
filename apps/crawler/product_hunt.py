@@ -58,9 +58,10 @@ def save_feeds(feeds):
 
 		for feed in feeds:
 			col.save(feed)
+		echo 'Save Product Hunt stories at date: '+%Y-%m-%d %H:%M:%S'' >> "/home/www/TheOne/apps/crawler.log"
 	except:
 		traceback.print_exc()
-
+		echo 'Failed to save Product Hunt stories at date: '+%Y-%m-%d %H:%M:%S'' >> "/home/www/TheOne/apps/crawler.log"
 	if conn is not None:
 		conn.close()
 
